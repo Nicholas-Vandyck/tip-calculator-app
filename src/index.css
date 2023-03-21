@@ -1,13 +1,27 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Source+Sans+Pro&display=swap');
+
+*, ::before, ::after {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+ --barnd: 172, 67%, 45%;
+ --text: 183, 100%, 15%;
+ --neutral1: 186, 14%, 43%;
+ --neutral2: 184, 14%, 56%;
+ --neutral3: 185, 41%, 84%;
+ --neutral4: 189, 41%, 97%;
+ --White: 0, 0%, 100%;
+}
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5rem;
+}
+
+.wrapper{
+  display: grid;
+  gap: 5rem;
 }
