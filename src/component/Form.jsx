@@ -6,9 +6,10 @@ const form = () => {
     <div className="form">
         <div className="lable-group">
             <label className='label' htmlFor='bill'>Bill</label>
+            </div>
             <input type="number" id="bill" />
             <img src={dollarIcon} alt='' aria-hidden="true" className='icon'/>
-        </div>
+       
 
         <div className="tip-section">
           <div className="lable">Selected Tip %</div>

@@ -2,26 +2,25 @@
 
 const Display = () => {
     return (
-        <div>
-            <div className="display-row">
-                <div>
+        <div className="display">
+           <div className="display-group">
+           <div className="display-row">
                 <div className="display-label">
                     <p className="header">Tip Amount</p>
                     <p className="unit">/ person</p>
                 </div>
-                <div className="display-amt">
-                    <p className="value">$0.00</p>
+                    <p className="display-amt">$0.00</p>
                 </div>
+                
+                <div className="display-row">
                 <div className="display-label">
                     <p className="header">Tip Amount</p>
                     <p className="unit">/ person</p>
                 </div>
-                <div className="display-amt">
-                    <p className="value">$0.00</p>
+                    <p className="display-amt">$0.00</p>
                 </div>
-                </div>
-                <button className="btn">Reset</button>
-            </div>
+           </div>
+            <button className="btn">Reset</button>
         </div>
     )
 }
